@@ -1,0 +1,40 @@
+/*Navigation Bar */
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+body {
+  margin: 0em;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("Background.png");
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: navy;
+}
+
+.topnav a {
+  float: left;
+  color: burlywood;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14%;
+}
+
+.topnav a:hover {
+  background-color: #000099;
+  color: blanchedalmond;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/*Navigation Bar*/
